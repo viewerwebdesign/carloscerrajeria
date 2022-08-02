@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(212, 208, 208);
+}
+
+
+
+.navbar{
+    background-color: #696161;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container-fluid img{
+    width: 18vw;
+    height: 15vh;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 7px solid white;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.navbar-nav{
+    width: 50%;
+}
+.collapse{
+    justify-content:flex-end;
+    margin-inline-end: 1%;
+}
+.container-fluid button{
+    color: rgb(255, 255, 255);
+    
+}
+
+header{
+    background-color:#4B4161 ;
+}
+
+header img{
+    width: 100%;
+    height: 70vh;
+    text-shadow: gray 1px 1px 15px;
+}
+
+.card{
+    border: gray solid 3px;
+    box-shadow: #3F4A3C 2px 2px 12px;
+    background-color: rgb(95, 87, 87);
+    color: white;
+}
+.card-body{
+    background-color: rgb(104, 101, 101);
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer  a, h6{
+   display: flex;
+   justify-content: center;
+   text-decoration: none;
+    color:  red;
+}
+
+footer a:hover{
+    color: gray;
+}
+
+
+.container-boton{
+    background-color: #35a835fd;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 15px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.fa-whatsapp{
+    font-size: 3em;
+    color: white;
+}
+
