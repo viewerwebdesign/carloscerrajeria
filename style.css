@@ -65,6 +65,11 @@ header img{
 }
 .carousel-inner{
     box-shadow: black 1px 1px 12px;
+    height: 70vh;
+    
+}
+.carousel-inner img{
+    height: 70vh;
 }
 
 .card{
@@ -132,4 +137,16 @@ footer a:hover{
 }
 .desarrollado a{
     color: white;
+}
+
+@media (min-width: 320px) and (max-width: 575px){
+
+    .carousel-inner{
+        box-shadow: black 1px 1px 12px;
+        height: 40vh;
+    }
+    .carousel-inner img{
+        height: 40vh;
+    }
+
 }
